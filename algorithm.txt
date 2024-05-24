@@ -1,0 +1,62 @@
+<section id ="showcase">
+        <div class ="container">
+            <img class="profile_pic" src="./images/LIB_5792.jpg">
+            <div class="container_left">
+ <h1>ABOUT ME</h1>
+     <p>My name is Chinelo Chukwu, I am a frontend web developer who combines innovation with creativity to create captivating. websites.
+        Uncover Desiremadeitt's captivating blend of innovation and creativity, 
+        where excellence meets satisfaction. Welcome to my enchanting space where creativity dwells </p>
+     </div>
+        <div class="container_aside">
+     <h2>Our Mission</h2>
+     <p>Our mission is to create a compelling identity that gives customers a deep 
+        satisfaction through our creative journey,
+         We are dedicated to bringing solutions that solves problems, 
+         leaving your audience with an elevated and laxtingg impression of your brand.</p>
+         <h2>Our Vision</h2>
+         <p>We seek to create long-lasting solutions, and to elevate your brand with
+             our skillset which is tailored to give your brand the splendid touch it deserves</p>
+     </div>
+    </section>       
+
+
+
+
+
+
+
+    #showcase{
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+ /* gap: ;**/
+  align-items: center;
+}
+
+.container_left{
+  flex: 1;
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+
+.container_left h1{
+  font-size: 24px;
+  color: #ffd700
+}
+
+.container_left p{
+  line-height: 20px;
+}
+
+.profile_pic{
+  flex: 1;
+  height: 100%;
+}
+#showcase .profile_pic{
+  height: 50%;
+  width: auto;
+  object-fit: cover;
+}
+    
